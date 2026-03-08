@@ -6,8 +6,10 @@ function init(): void {
   canvas.id = 'matrix-canvas'
   document.body.appendChild(canvas)
 
-  const matrixRain = new MatrixRain(canvas)
-  matrixRain.start()
+  requestAnimationFrame(() => {
+    const matrixRain = new MatrixRain(canvas)
+    matrixRain.start()
+  })
 }
 
 if (document.readyState === 'loading') {
