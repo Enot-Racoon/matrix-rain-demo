@@ -8,7 +8,7 @@ Cinematic Matrix-style digital rain animation rendered on HTML5 Canvas.
 
 ## Demo
 
-👉 [Live Demo](https://enot-racoon.github.io/matrix-rain-demo/)
+👉 [Live Demo](https://matrix-rain-demo.netlify.app)
 
 ## Features
 
